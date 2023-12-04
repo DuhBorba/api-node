@@ -5,8 +5,12 @@
   "author": "Eduardo Luis Borba",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "ts-node-dev ./src/index.ts"
+  },
   "dependencies": {
     "express": "^4.18.2",
+    "http-status-codes": "^2.3.0",
     "ts-node-dev": "^2.0.0"
   },
   "devDependencies": {
